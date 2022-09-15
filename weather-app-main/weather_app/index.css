@@ -1,0 +1,184 @@
+body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      .mainCard {
+        margin: 3%;
+        width: auto;
+        height: 550px;
+        background-color: rgb(178, 209, 128);
+        
+        position: relative;
+        border-radius: 18px;
+      }
+      .logoDate {
+        position: absolute;
+        top: 0%;
+        width: 35%;
+        height: 50%;
+        background-color: rgb(114, 83, 239);
+        border-top-left-radius: 18px;
+        
+      }
+      .dailyCard {
+        position: absolute;
+        top: 50%;
+        height: 50%;
+        width: 35%;
+        display: grid;
+        grid-template-columns: 100%;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        color: white;
+        font-weight: 500;
+        background-image: url("https://media.istockphoto.com/photos/black-matte-background-picture-id1133405969?b=1&k=20&m=1133405969&s=170667a&w=0&h=KoQDyKJ-bbtCER0xW_2ocq9dCmRgtyejO6BsgrLC--4=");
+        border-bottom-left-radius: 18px;
+      }
+      #location {
+        /* position: absolute; */
+        /* top: 3%;
+        left: 10%; */
+        outline: none;
+        border: none;
+        color: white;
+        background: transparent;
+        height: 24px;
+        border-bottom: 1px solid black;
+      }
+      #location::placeholder {
+        color: white;
+      }
+      #input {
+        margin-top: 3%;
+        display: flex;
+        height: 30px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        /* border: 1px solid black; */
+      }
+      .fa-search-location {
+        margin-left: 10px;
+        font-size: 30px;
+        /* size: 40px; */
+        color: white;
+      }
+      .logoDate{
+          display: grid;
+          /* border: 1px solid red; */
+      }
+      #search{
+        cursor: pointer;
+      }
+      #lbox{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: rgb(215, 61, 218);
+          margin: auto;
+          margin-top: 0px;
+          /* border: 1px solid red; */
+          padding: 10px;
+          color: whitesmoke;
+          font-weight: 700;
+          border-radius: 15px;
+      }
+      .tempbox{
+          display: flex;
+          width: 100%;
+          justify-content: space-around;
+          /* border: 1px solid red; */
+      }
+      .sunbox{
+          display: flex;
+          width: 100%;
+          justify-content: space-around;
+          /* border: 1px solid blue; */
+      }
+      .wind{
+          width: 100%;
+          text-align: center;
+          width: auto;
+          /* border: 1px solid teal; */
+      }
+      .humidity{
+          width: 100%;
+          text-align: center;
+          width: auto;
+          /* border: 1px solid red; */
+      }
+
+      .week {
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        /* width: 100%; */
+        background-color: tan;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 18px;
+      }
+       .week>div{
+         cursor: pointer;
+       }
+
+       .fas fa-search-location{
+         cursor: pointer;
+       }
+
+      .fas {
+        color: white;
+      }
+      #maxdiv {
+        display: flex;
+        width: auto;
+        /* border: 1px solid red; */
+      }
+      #mindiv {
+        width: auto;
+        display: flex;
+      }
+      #windiv {
+        display: flex;
+      }
+      #eachday {
+        font-weight: 500;
+        font-size: 12px;
+        width: 13%;
+        /* border: 1px solid red; */
+        display: grid;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.731) 0px 5px 15px;
+        padding: 10px;
+        border-radius: 15px;
+      }
+      #tdiv {
+        display: flex;
+        justify-content: space-around;
+        width: 110%;
+        border-radius: 18px;
+      }
+      #date {
+        margin: auto;
+      }
+      #desc {
+        margin: auto;
+      }
+      .logo{
+          display: flex;
+          justify-content: center;
+          
+          /* margin: auto; */
+          margin-top: -20px;
+          line-height: 10px;
+      }
+      .map{
+         
+          background-repeat: no-repeat;
+          border-radius: 18px;
+      }
+      iframe {
+        margin-left: 35%;
+        height: 550px;
+        left: 35%;
+        width: 65%;
+        border-bottom-right-radius: 18px;
+        border-top-right-radius: 18px;
+      }
